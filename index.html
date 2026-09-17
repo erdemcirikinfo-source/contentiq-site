@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ContentIQ Studio — Yeni Nesil Dijital Mimarlık ve Yapay Zeka Danışmanlığı</title>
+  
+  <meta name="description" content="ContentIQ Studio: İşletmelerin dijital mimarisini yeniden kurgulayan yeni nesil stüdyo. Yapay zeka danışmanlığı, AI otomasyon, n8n workflow, dijital ajans, içerik, sosyal medya ve web mimarisi.">
+  <meta name="keywords" content="dijital ajans, dijital pazarlama, sosyal medya yönetimi, yapay zeka danışmanlığı, AI danışmanlığı, AI otomasyon, dijital dönüşüm, dijital mimarlık, içerik üretimi, influencer ajansı, web tasarım, SEO, Google Ads">
+  <link rel="canonical" href="https://contentiq.com.tr/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contentiq.com.tr/">
+  <meta property="og:title" content="ContentIQ Studio — Yeni Nesil Dijital Mimarlık ve Yapay Zeka Danışmanlığı">
+  <meta property="og:description" content="İşletmelerin dijital mimarisini yeniden kurguluyoruz. Yapay zeka, otomasyon, içerik, sosyal medya ve web teknolojilerini tek bir dijital sistem altında birleştiriyoruz.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            electric: '#D4FF00',
+            void: '#050507',
+            surface: '#0B0D13',
+            mutedText: '#8E929E'
+          },
+          fontFamily: {
+            display: ['Syne', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+            editorial: ['Space Grotesk', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #050507;
+      color: #EDECE8;
+    }
+    .bg-grid {
+      background-size: 64px 64px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    }
+    ::selection {
+      background: #D4FF00;
+      color: #000;
+    }
+  </style>
+
+  <!-- Schemas -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "ContentIQ Studio",
+        "url": "https://contentiq.com.tr/",
+        "email": "info@contentiq.com.tr",
+        "description": "Yeni Nesil Dijital Mimarlık ve Yapay Zeka Danışmanlığı"
+      },
+      {
+        "@type": "WebSite",
+        "url": "https://contentiq.com.tr/",
+        "name": "ContentIQ Studio"
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-void text-[#EDECE8] antialiased overflow-x-hidden selection:bg-electric selection:text-black">
+
+  <canvas id="canvas-bg" class="fixed inset-0 pointer-events-none z-0 opacity-70"></canvas>
+
+  <header class="fixed top-0 left-0 w-full z-50 py-5 bg-[#050507]/80 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded border border-electric/40 bg-black flex items-center justify-center font-mono text-xs font-bold text-electric">IQ</div>
+        <div>
+          <span class="font-display font-black text-sm tracking-wider text-white">CONTENTIQ</span>
+          <span class="font-mono text-[9px] text-mutedText tracking-widest block">STUDIO // 2026</span>
+        </div>
+      </a>
+      <div class="hidden md:flex items-center gap-6 font-mono text-xs text-mutedText">
+        <a href="#digital-architecture" class="hover:text-white">// 01 MİMARLIK</a>
+        <a href="#system" class="hover:text-white">// 02 SİSTEM</a>
+        <a href="#services" class="hover:text-white">// 03 BİLEŞENLER</a>
+        <a href="#ai-core" class="hover:text-white">// 04 AI</a>
+        <a href="#faq" class="hover:text-white">// 05 SSS</a>
+      </div>
+      <a href="mailto:info@contentiq.com.tr" class="px-4 py-2 rounded-lg bg-electric text-black font-mono text-xs font-bold hover:bg-white transition-colors">
+        PROJENİ KONUŞALIM
+      </a>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-28">
+    <!-- Hero -->
+    <section class="max-w-7xl mx-auto px-6 min-h-[85vh] flex flex-col justify-between pb-16">
+      <div class="font-mono text-xs text-mutedText border-b border-white/10 pb-4 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-electric animate-ping"></span>
+        <span class="text-electric">SİSTEM ONLINE</span>
+        <span class="text-white/30">|</span>
+        <span>YENİ NESİL DİJİTAL MİMARLIK VE YAPAY ZEKA DANIŞMANLIĞI</span>
+      </div>
+
+      <div class="my-auto py-12">
+        <h1 class="font-display text-6xl sm:text-8xl md:text-9xl font-black text-white uppercase tracking-tighter leading-[0.88]">
+          CONTENTIQ<br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white/80 to-electric">STUDIO</span>
+        </h1>
+
+        <div class="mt-8 pt-8 border-t border-white/10 grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+          <div class="md:col-span-6">
+            <p class="font-display text-2xl sm:text-4xl font-bold uppercase text-white leading-tight">
+              YENİ NESİL <br>
+              <span class="text-white/60">DİJİTAL MİMARLIK</span> <br>
+              <span class="text-electric">+ YAPAY ZEKA</span>
+            </p>
+          </div>
+          <div class="md:col-span-6 space-y-4">
+            <p class="font-editorial text-2xl text-white font-medium">
+              "İşletmelerin dijital mimarisini yeniden kurguluyoruz."
+            </p>
+            <p class="text-mutedText text-sm sm:text-base leading-relaxed">
+              Yapay zeka, otomasyon, içerik, sosyal medya ve web teknolojilerini tek bir dijital sistem altında birleştiriyoruz.
+            </p>
+            <div class="pt-4 flex flex-wrap gap-4">
+              <a href="mailto:info@contentiq.com.tr" class="px-8 py-4 rounded-xl bg-electric text-black font-mono text-sm font-bold hover:bg-white transition-all shadow-[0_0_25px_rgba(212,255,0,0.3)]">
+                PROJENİ KONUŞALIM →
+              </a>
+              <a href="#system" class="px-8 py-4 rounded-xl bg-white/5 border border-white/10 text-white font-mono text-sm hover:border-electric/40 transition-all">
+                SİSTEMİ KEŞFET ↓
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-white/10 pt-6 grid grid-cols-2 sm:grid-cols-4 gap-4 font-mono text-xs text-mutedText">
+        <div><span class="text-white/40 block text-[10px]">OPERASYON</span> Bütünleşik Dijital Ekosistem</div>
+        <div><span class="text-white/40 block text-[10px]">MİMARİ</span> Pure Vanilla Code & Zero Bloat</div>
+        <div><span class="text-white/40 block text-[10px]">AI ENTEGRASYONU</span> Agentic & n8n Workflows</div>
+        <div><span class="text-white/40 block text-[10px]">İLETİŞİM</span> <a href="mailto:info@contentiq.com.tr" class="text-white hover:text-electric">info@contentiq.com.tr</a></div>
+      </div>
+    </section>
+
+    <!-- 01 DIGITAL ARCHITECTURE -->
+    <section id="digital-architecture" class="border-t border-white/10 py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex items-baseline gap-4 mb-6">
+          <span class="font-mono text-6xl font-black text-white/20">01</span>
+          <div>
+            <span class="font-mono text-xs text-electric tracking-widest uppercase">MANIFESTO</span>
+            <h2 class="font-display text-3xl md:text-5xl font-black text-white uppercase">DIGITAL ARCHITECTURE</h2>
+          </div>
+        </div>
+        <div class="border-l-2 border-electric pl-6 md:pl-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+          <div class="lg:col-span-7">
+            <blockquote class="font-editorial text-3xl sm:text-4xl text-white font-medium">
+              "Dijitalde sadece görünür olmak değil, <br>
+              <span class="text-electric">doğru sistemi kurmak</span> önemli."
+            </blockquote>
+          </div>
+          <div class="lg:col-span-5 text-mutedText text-sm sm:text-base space-y-4">
+            <p>ContentIQ Studio; dağınık ajans işleri yerine tüm temas noktalarının birbiriyle konuştuğu entegre yapılar kurar. Yapay zeka ile güçlendirilmiş içerik üretiminden otomatik CRM beslemelerine kadar her parça birbirini besler.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE CONTENTIQ SYSTEM -->
+    <section id="system" class="border-t border-white/10 py-24 bg-surface/50">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl mb-12">
+          <span class="font-mono text-xs text-electric tracking-widest uppercase block mb-2">// LIVING NETWORK</span>
+          <h2 class="font-display text-4xl sm:text-6xl font-black text-white uppercase">THE CONTENTIQ SYSTEM</h2>
+          <p class="text-mutedText text-base mt-3">Birbirine bağlı çalışan 8 temel modül.</p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 font-mono text-xs">
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 01</span>
+            <strong class="text-white text-base font-display">AI</strong>
+            <p class="text-mutedText text-[11px] mt-2">Bilişsel karar ve model orkestrasyonu</p>
+          </div>
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 02</span>
+            <strong class="text-white text-base font-display">CONTENT</strong>
+            <p class="text-mutedText text-[11px] mt-2">Yüksek rezonanslı metin ve görsel varlıklar</p>
+          </div>
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 03</span>
+            <strong class="text-white text-base font-display">SOCIAL</strong>
+            <p class="text-mutedText text-[11px] mt-2">Kanal mimarisi ve algoritmik dağıtım</p>
+          </div>
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 04</span>
+            <strong class="text-white text-base font-display">WEB</strong>
+            <p class="text-mutedText text-[11px] mt-2">Milisaniyelik hızda çalışan arayüzler</p>
+          </div>
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 05</span>
+            <strong class="text-white text-base font-display">AUTOMATION</strong>
+            <p class="text-mutedText text-[11px] mt-2">n8n ve sıfır sürtünmeli iş akışları</p>
+          </div>
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 06</span>
+            <strong class="text-white text-base font-display">MEDIA</strong>
+            <p class="text-mutedText text-[11px] mt-2">Sinematik video ve PR varlıkları</p>
+          </div>
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 07</span>
+            <strong class="text-white text-base font-display">STRATEGY</strong>
+            <p class="text-mutedText text-[11px] mt-2">Pazar ve konumlandırma master planı</p>
+          </div>
+          <div class="p-5 rounded-xl border border-white/10 bg-black/60 hover:border-electric transition-all">
+            <span class="text-electric block mb-1">NODE 08</span>
+            <strong class="text-white text-base font-display">DATA</strong>
+            <p class="text-mutedText text-[11px] mt-2">Dönüşüm ve telemetri geri bildirimi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="border-t border-white/10 py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 border-b border-white/10 pb-6">
+          <div>
+            <span class="font-mono text-xs text-electric uppercase tracking-widest block mb-2">// DİJİTAL OPERASYON SİSTEMİ</span>
+            <h2 class="font-display text-4xl sm:text-6xl font-black text-white uppercase">BİLEŞENLER</h2>
+          </div>
+          <p class="font-mono text-xs text-mutedText mt-4 md:mt-0">17 Entegre Dijital Mimarlık Hizmeti</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="p-6 rounded-xl border border-white/10 bg-black/40">
+            <span class="font-mono text-[10px] text-electric block mb-1">SYS-01 // SOSYAL</span>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Sosyal Medya Yönetimi</h3>
+            <p class="text-xs text-mutedText leading-relaxed">Veri temelli sayfa paylaşımları, etkileşim artırma, Facebook reklam alanı yönetimi.</p>
+          </div>
+          <div class="p-6 rounded-xl border border-white/10 bg-black/40">
+            <span class="font-mono text-[10px] text-electric block mb-1">SYS-02 // INFLUENCER</span>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Influencer & AI Avatar</h3>
+            <p class="text-xs text-mutedText leading-relaxed">Influencer ajansı ve 7/24 yaşayan tutarlı sentetik AI Influencer personası.</p>
+          </div>
+          <div class="p-6 rounded-xl border border-white/10 bg-black/40">
+            <span class="font-mono text-[10px] text-electric block mb-1">SYS-03 // PRODÜKSİYON</span>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Medya & Tasarım</h3>
+            <p class="text-xs text-mutedText leading-relaxed">Video prodüksiyon, radikal grafik tasarım, PR ve stratejik basın bülteni.</p>
+          </div>
+          <div class="p-6 rounded-xl border border-white/10 bg-black/40">
+            <span class="font-mono text-[10px] text-electric block mb-1">SYS-04 // YAPAY ZEKA</span>
+            <h3 class="font-display text-lg font-bold text-white mb-2">AI Danışmanlığı & Otomasyon</h3>
+            <p class="text-xs text-mutedText leading-relaxed">Yapay zeka danışmanlığı, AI otomasyon, n8n workflow ve Agentic AI mimarileri.</p>
+          </div>
+          <div class="p-6 rounded-xl border border-white/10 bg-black/40">
+            <span class="font-mono text-[10px] text-electric block mb-1">SYS-05 // WEB</span>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Web Mimarlığı</h3>
+            <p class="text-xs text-mutedText leading-relaxed">Hızlı web tasarım ve dönüşüm odaklı e-ticaret altyapıları.</p>
+          </div>
+          <div class="p-6 rounded-xl border border-white/10 bg-black/40">
+            <span class="font-mono text-[10px] text-electric block mb-1">SYS-06 // PERFORMANS</span>
+            <h3 class="font-display text-lg font-bold text-white mb-2">Arama & Reklam Otoritesi</h3>
+            <p class="text-xs text-mutedText leading-relaxed">Google Ads yönetimi ve semantik teknik SEO optimizasyonu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARCHITECTURE FLOW -->
+    <section class="border-t border-white/10 py-20 bg-surface/30">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h3 class="font-display text-2xl sm:text-4xl font-extrabold text-white uppercase mb-10">
+          TEK TEK HİZMETLER DEĞİL. <br>
+          <span class="text-electric">BİRBİRİNE BAĞLANAN BİR SİSTEM.</span>
+        </h3>
+        <div class="flex flex-wrap justify-center items-center gap-3 font-mono text-xs">
+          <span class="px-3 py-2 rounded border border-white/10 bg-black">STRATEGY</span>
+          <span class="text-electric">↓</span>
+          <span class="px-3 py-2 rounded border border-white/10 bg-black">CONTENT</span>
+          <span class="text-electric">↓</span>
+          <span class="px-3 py-2 rounded border border-white/10 bg-black">SOCIAL</span>
+          <span class="text-electric">↓</span>
+          <span class="px-3 py-2 rounded border border-white/10 bg-black">AUDIENCE</span>
+          <span class="text-electric">↓</span>
+          <span class="px-3 py-2 rounded border border-white/10 bg-black">DATA</span>
+          <span class="text-electric">↓</span>
+          <span class="px-3 py-2 rounded border border-white/10 bg-black">AI</span>
+          <span class="text-electric">↓</span>
+          <span class="px-3 py-2 rounded border border-white/10 bg-black">AUTOMATION</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI SECTION -->
+    <section id="ai-core" class="border-t border-white/10 py-24 bg-black">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <span class="font-mono text-xs text-electric tracking-widest uppercase block mb-3">[ COGNITIVE CORE ]</span>
+        <h2 class="font-display text-4xl sm:text-7xl font-black text-white uppercase">AI IS NOT A BUZZWORD.</h2>
+        <p class="font-editorial text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto mt-4 mb-12">
+          Yapay zekayı süs değil, doğrudan operasyonlarınıza değer katan otonom iş akışları olarak tasarlıyoruz.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left max-w-5xl mx-auto">
+          <div class="p-6 rounded-xl border border-white/10 bg-surface/60">
+            <span class="font-mono text-xs text-electric block mb-2">01 // İŞ AKIŞLARI</span>
+            <h4 class="font-display text-xl font-bold text-white mb-2">Operasyonel Entegrasyon</h4>
+            <p class="text-xs text-mutedText leading-relaxed">Tekrarlayan iş süreçlerini sıfır insan hatasıyla yürüten yapay zeka otomasyonları.</p>
+          </div>
+          <div class="p-6 rounded-xl border border-white/10 bg-surface/60">
+            <span class="font-mono text-xs text-electric block mb-2">02 // İÇERİK</span>
+            <h4 class="font-display text-xl font-bold text-white mb-2">Bilişsel Üretim</h4>
+            <p class="text-xs text-mutedText leading-relaxed">Özgün ses tonunda yüksek kaliteli görsel, video ve metin üretimi.</p>
+          </div>
+          <div class="p-6 rounded-xl border border-white/10 bg-surface/60">
+            <span class="font-mono text-xs text-electric block mb-2">03 // AJANLAR</span>
+            <h4 class="font-display text-xl font-bold text-white mb-2">Agentic AI & n8n</h4>
+            <p class="text-xs text-mutedText leading-relaxed">Kendi kendine hedef belirleyebilen ve aksiyon alan çoklu ajan sistemleri.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW WE BUILD -->
+    <section class="border-t border-white/10 py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl mb-12">
+          <span class="font-mono text-xs text-electric tracking-widest uppercase block mb-2">// METODOLOJİ</span>
+          <h2 class="font-display text-4xl sm:text-6xl font-black text-white uppercase">HOW WE BUILD</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4 font-mono text-xs">
+          <div class="p-4 rounded-xl border border-white/10 bg-black/50">
+            <span class="text-electric text-lg font-bold block mb-1">01</span>
+            <strong class="text-white font-display text-sm block">ANALİZ</strong>
+            <p class="text-mutedText text-[11px] mt-1">Sistemik denetim ve darboğaz keşfi</p>
+          </div>
+          <div class="p-4 rounded-xl border border-white/10 bg-black/50">
+            <span class="text-electric text-lg font-bold block mb-1">02</span>
+            <strong class="text-white font-display text-sm block">STRATEJİ</strong>
+            <p class="text-mutedText text-[11px] mt-1">Entegre blueprint ve hedef mimarisi</p>
+          </div>
+          <div class="p-4 rounded-xl border border-white/10 bg-black/50">
+            <span class="text-electric text-lg font-bold block mb-1">03</span>
+            <strong class="text-white font-display text-sm block">TASARIM</strong>
+            <p class="text-mutedText text-[11px] mt-1">Şablonlardan uzak radikal görsel dil</p>
+          </div>
+          <div class="p-4 rounded-xl border border-white/10 bg-black/50">
+            <span class="text-electric text-lg font-bold block mb-1">04</span>
+            <strong class="text-white font-display text-sm block">UYGULAMA</strong>
+            <p class="text-mutedText text-[11px] mt-1">Hafif kod ve sinematik prodüksiyon</p>
+          </div>
+          <div class="p-4 rounded-xl border border-white/10 bg-black/50">
+            <span class="text-electric text-lg font-bold block mb-1">05</span>
+            <strong class="text-white font-display text-sm block">OTOMASYON</strong>
+            <p class="text-mutedText text-[11px] mt-1">n8n ve otonom bilişsel ajanlar</p>
+          </div>
+          <div class="p-4 rounded-xl border border-white/10 bg-black/50">
+            <span class="text-electric text-lg font-bold block mb-1">06</span>
+            <strong class="text-white font-display text-sm block">OPTİMİZASYON</strong>
+            <p class="text-mutedText text-[11px] mt-1">Canlı telemetri ve sürekli iyileştirme</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="border-t border-white/10 py-24 bg-surface/40">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="font-display text-3xl sm:text-5xl font-black text-white uppercase text-center mb-12">SIKÇA SORULAN SORULAR</h2>
+        <div class="space-y-4">
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group" open>
+            <summary class="font-display text-lg text-white font-bold">ContentIQ Studio ne yapar?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">Yapay zeka danışmanlığı, otomasyon (n8n, agentic AI), sosyal medya yönetimi, dijital ajans hizmetleri, içerik üretimi ve web mimarisini tek bir entegre işletim sistemi olarak tasarlar ve uygular.</p>
+          </details>
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group">
+            <summary class="font-display text-lg text-white font-bold">Yeni nesil dijital mimarlık nedir?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">Ayrık hizmetler yerine strateji, içerik, sosyal medya, veri, yapay zeka ve otomasyon katmanlarının birbirine bağlı çalıştığı bütünsel dijital ekosistem tasarımıdır.</p>
+          </details>
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group">
+            <summary class="font-display text-lg text-white font-bold">Yapay zeka danışmanlığı nedir?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">İşletmelerin tekrarlayan iş gücünü hafifletmek ve müşteri temas noktalarını zenginleştirmek için en uygun yapay zeka modellerinin iş akışlarına entegre edilmesidir.</p>
+          </details>
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group">
+            <summary class="font-display text-lg text-white font-bold">İşletmelere yapay zeka nasıl entegre edilir?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">Veri ve operasyonel darboğazlar analiz edilir, n8n ve agentic AI otomasyonları kurgulanır ve ekiplerin günlük iş akışlarına eklemlenir.</p>
+          </details>
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group">
+            <summary class="font-display text-lg text-white font-bold">Sosyal medya yönetimi neleri kapsar?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">Veri odaklı paylaşımlar, etkileşim kurguları, video prodüksiyonu, reklam yönetimi ve influencer işbirliklerini kapsar.</p>
+          </details>
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group">
+            <summary class="font-display text-lg text-white font-bold">AI otomasyon nedir?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">Manuel veri ve operasyon akışlarının n8n ve akıllı ajanlar yardımıyla otonom yürütülmesidir.</p>
+          </details>
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group">
+            <summary class="font-display text-lg text-white font-bold">Web tasarım hizmeti sunuyor musunuz?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">Evet; milisaniyeler içinde açılan, modern ve dönüşüm odaklı web altyapıları üretiyoruz.</p>
+          </details>
+          <details class="p-5 rounded-xl border border-white/10 bg-black cursor-pointer group">
+            <summary class="font-display text-lg text-white font-bold">Google Ads yönetimi yapıyor musunuz?</summary>
+            <p class="mt-3 text-sm text-mutedText leading-relaxed">Evet; yapay zeka destekli anahtar kelime ve teklif stratejileriyle yüksek dönüşüm odaklı kampanyalar yönetiyoruz.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL SECTION -->
+    <section class="border-t border-white/10 py-32 bg-black text-center relative">
+      <div class="max-w-4xl mx-auto px-6">
+        <span class="font-mono text-xs text-electric tracking-widest uppercase block mb-4">[ INITIATE ]</span>
+        <h2 class="font-display text-6xl sm:text-8xl md:text-9xl font-black text-white uppercase tracking-tighter leading-none mb-8">
+          BUILD WHAT'S <br><span class="text-electric">NEXT.</span>
+        </h2>
+        <p class="font-editorial text-2xl sm:text-3xl text-white/90 mb-10">
+          "İşletmenizin bir sonraki dijital sistemini birlikte tasarlayalım."
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <a href="mailto:info@contentiq.com.tr" class="px-10 py-5 rounded-xl bg-electric text-black font-mono text-sm font-bold hover:bg-white transition-all shadow-[0_0_35px_rgba(212,255,0,0.3)]">
+            PROJENİ KONUŞALIM →
+          </a>
+          <a href="mailto:info@contentiq.com.tr" class="px-8 py-5 rounded-xl bg-white/5 border border-white/10 text-white font-mono text-xs hover:border-electric">
+            info@contentiq.com.tr
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 py-10 bg-void font-mono text-xs text-mutedText text-center">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div>CONTENTIQ STUDIO — Yeni Nesil Dijital Mimarlık ve Yapay Zeka Danışmanlığı</div>
+      <div>E-posta: <a href="mailto:info@contentiq.com.tr" class="text-white hover:text-electric">info@contentiq.com.tr</a></div>
+    </div>
+  </footer>
+
+  <script>
+    // Lightweight architectural grid animation
+    const canvas = document.getElementById('canvas-bg');
+    const ctx = canvas.getContext('2d');
+    let w = canvas.width = window.innerWidth;
+    let h = canvas.height = window.innerHeight;
+
+    window.addEventListener('resize', () => {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    });
+
+    const nodes = [];
+    const count = 35;
+    for (let i = 0; i < count; i++) {
+      nodes.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.4,
+        vy: (Math.random() - 0.5) * 0.4
+      });
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, w, h);
+      ctx.fillStyle = 'rgba(212, 255, 0, 0.4)';
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+
+      for (let i = 0; i < count; i++) {
+        const n = nodes[i];
+        n.x += n.vx;
+        n.y += n.vy;
+        if (n.x < 0 || n.x > w) n.vx *= -1;
+        if (n.y < 0 || n.y > h) n.vy *= -1;
+
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, 1.5, 0, Math.PI * 2);
+        ctx.fill();
+
+        for (let j = i + 1; j < count; j++) {
+          const n2 = nodes[j];
+          const dist = Math.hypot(n.x - n2.x, n.y - n2.y);
+          if (dist < 130) {
+            ctx.beginPath();
+            ctx.moveTo(n.x, n.y);
+            ctx.lineTo(n2.x, n2.y);
+            ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(draw);
+    }
+    draw();
+  </script>
+</body>
+</html>
